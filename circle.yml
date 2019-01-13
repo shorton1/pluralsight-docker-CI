@@ -7,9 +7,7 @@
 #    commands:
 #      - $DOCKER_HUB_TRIGGER
 
-workflows:
-    "pluralsight":
-        jobs:
-         test:
-          override:    
-           - mocha
+
+test:
+  override:    
+     - mocha
